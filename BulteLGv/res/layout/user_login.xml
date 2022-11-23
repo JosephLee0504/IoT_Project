@@ -1,0 +1,73 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".LoginActivity" >
+
+    <TextView
+        android:id="@+id/topname"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:background="#1C86EE"
+        android:gravity="center"
+        android:textSize="19sp"
+        android:text="User Login"
+        android:textColor="#ffffff" />
+
+    <ImageView
+        android:id="@+id/loginImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dip" />
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="fill_parent"
+        android:layout_height="45dip"
+        android:layout_marginTop="30dip"
+        android:background="@drawable/edit_bg"
+        android:ellipsize="end"
+        android:textSize="14dp"
+        android:gravity="center_vertical"
+        android:hint="UserName"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:maxLength="30"
+        android:paddingRight="2dp"
+        android:singleLine="true"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColorHighlight="#7e4d84" />
+
+    <EditText
+        android:id="@+id/pass"
+        android:textSize="14dp"
+        android:layout_width="fill_parent"
+        android:layout_height="45dip"
+        android:layout_marginTop="30dip"
+        android:background="@drawable/edit_bg"
+        android:ellipsize="end"
+        android:gravity="center_vertical"
+        android:hint="Password"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:paddingRight="2dp"
+        android:password="true"
+        android:singleLine="true"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <Button
+        android:id="@+id/loginbtn"
+        android:layout_width="fill_parent"
+        android:layout_height="45dip"
+        android:layout_marginTop="20dip"
+        android:background="#1C86EE"
+        android:gravity="center"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:text="Login"
+        android:textColor="#ffffff" />
+
+  
+
+</LinearLayout>
